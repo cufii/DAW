@@ -1,0 +1,189 @@
+
+
+/* Elements */
+
+body {
+	background: #60AE5F;
+	text-align: justify;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #333333;
+}
+
+h2, h3 {
+	margin-top: 0px;
+	color: #2D661F;
+}
+
+h2 {
+	font-size: 18px;
+}
+
+h3 {
+	margin: 0;
+	font-size: 16px;
+}
+
+p, ol, ul, dl, blockquote {
+	margin-top: 0;
+}
+
+a {
+	color: #248A06;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+/* Header */
+#header a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.containerDAW {
+	background-color: #FFFFFF;
+    margin: 20px auto;
+    border-radius: 15px;
+}
+
+.containerDAW #header h1 {
+	text-align: center;
+}
+
+.containerDAW #header h2 {
+	padding: 0px 15px;
+}
+
+.containerDAW #splash img {
+	width: 100%;
+	height: auto;
+}
+
+.tableFotbalisti th,
+.tableFotbalisti td {
+	width: 20%;
+	vertical-align: middle !important;
+	font-size: 20px !important;
+	text-align: center;
+}
+
+.tableFotbalisti td img {
+	width: 150px;
+	height: 85px;
+}
+
+.tableFotbalisti tr.selectPlayer {
+	background-color: lightgray;
+}
+
+.tableFotbalisti tr.selectPlayer:hover {
+	transform: scale(1.2);
+	background-color: #EBEBEB;
+	cursor: pointer;
+}
+
+.modal-body form {
+	float: unset !important; 
+	font-size: 16px;
+}
+
+.modal-body form .label {
+	color: black;
+}
+
+.modal-body form .input_idEchipa,
+.modal-body form .input_idJucator {
+	display: none;
+}
+
+
+/* Menu */
+
+.menu {
+	height: 30px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.menu ul {
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	background: #333333;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.menu li {
+	width: 33%;
+}
+
+.menu a {
+	display: block;
+	padding: 7px 15px 5px 15px;
+	border-left: 1px solid #666666;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+.menu a:hover {
+	background: #CCCCCC;
+	color: #000000;
+}
+
+.menu .first a {
+	border:none;
+}
+
+/* Splash */
+
+#splash {
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+/* Content */
+
+.content {
+	margin: 0 auto;
+	padding: 10px;
+}
+
+.wrapper {
+	padding: 0px 30px;
+}
+
+#colOne {
+	float: right;
+	width: 299px;
+	padding: 0 15px 0 0;
+}
+
+#colTwo {
+	float: left;
+	width: 160px;
+	padding: 0 0 0 15px;
+}
+
+/* Footer */
+
+#footer {
+	height: 30px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+}
+
+#footer p {
+	margin: 0px;
+	text-align: center;
+	color: #1C570A;
+}
